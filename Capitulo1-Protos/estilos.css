@@ -1,0 +1,16 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+button{
+    cursor: pointer;
+    background-color: lightblue;
+    padding: 5px 10px;
+}
+.texto{
+    margin: 20px;
+}
