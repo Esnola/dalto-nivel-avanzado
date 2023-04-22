@@ -8,6 +8,9 @@
     background: #ccc;
     margin: 50px;
     outline: 6px dashed #aaa;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-image: url(textura3.jpeg);
     
 }
 .contenedor{
