@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lossbster', cursive; */
+    font-weight: 100;
+}
+h1{
+    text-align: center;
+    width:85%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:20px 30px;
+    border: 2px dashed blue;
+    width: 85%;
+    margin-left: 25px;
+}
+.miDiv{
+display: flex;
+flex-direction: column;
+}
+.miDiv > div{
+    background: linear-gradient(#111, #dcdbdb);
+    margin-top: 10px;
+    border: 10px solid #dcdbdb;
+    border-radius: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    width:fit-content;
+}
