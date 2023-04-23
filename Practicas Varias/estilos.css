@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:20px 30px;
+    border: 2px dashed blue;
+    width: 85%;
+    margin-left: 25px;
+}
+.miDiv{
+    border: 3px dotted green;
+    padding: 12px;
+    margin: 12px 30px;
+    background-color: #000;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 10px;
+}

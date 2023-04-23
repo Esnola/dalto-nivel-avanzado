@@ -1,34 +1,17 @@
 'use strict'
 
-const objeto = {
-    nombre : "lucas",
-    saludar : function(){console.log(`Hola ${this.nombre}`);}
+const salida = document.querySelector('.salida')
+const salida2 = document.querySelector('.salida2')
+const salida3 = document.querySelector('.salida3')
+const miDiv = document.createElement('mIDIV')
+miDiv.classList.add('miDiv')
+salida.appendChild(miDiv)
+
+
+const sumar = (num1,num2)=>{
+  console.log(num1 + num2)
+    return (num1 + num2);
 }
+let arr=[3,4]
 
-objeto.saludar()
-
-function constructorPersona(nombre, apellido){
-    this.nombre = nombre;
-    this.apellido = apellido;
-}
-
-const persona =  new constructorPersona("Juan", "Jose")
-
-console.log(persona);
-console.log(persona.nombre);
-console.log(persona.apellido);
-
-console.log(this);//Devuelve el objeto window
-
-//let miNombre = "AAAAA";
-
-const saludar = function(){
-    console.log(`Hola ${this.miNombre}`);
-}
-
-const objetivo = {
-    miNombre: "Luis",
-    saludar
-}
-
-objetivo.saludar();
+miDiv.innerHTML= sumar(...arr)
