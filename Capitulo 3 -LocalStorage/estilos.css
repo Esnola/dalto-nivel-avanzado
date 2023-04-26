@@ -3,7 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
 #borrador, #addData{
     background-color: #000;
     color:#fff;
@@ -42,7 +47,7 @@
     background: rgba(0,0,0,0.7);
     width: 100%;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
     top:0;
     opacity: 0;
     animation: aparecer 2s forwards;
