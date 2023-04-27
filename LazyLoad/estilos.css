@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.publicacion{
+    text-align: left;
+    margin: 20px;
+    color: #555;
+}
+
+.publicacion p{
+    padding: 10px 20px;
+    border-left: 2px solid #48e;
+}
+
+.publicacion h3{
+    color: #48e;
+    border-bottom: 2px solid #48e;
+    display: inline-block;
+}
+
+.comentarios{
+    display: flex;
+}
+
+.comentarios input{
+    padding: 6px 10px;
+    border: none;
+    background: #48e;
+    color: #fff;
+}
+
+.comentario::placeholder{
+    color: #bcf;
+}
+
+.comentario {
+    flex-grow: 1;
+}
+
+.enviar{
+    min-width: 60px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.primerDiv{
+    padding: 20px;
+    border: 1px dashed blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primerDiv:nth-child(even) .titulo{
+    color: green;
+}
+
+
+.segundoDiv{
+    padding: 12px 15px;
+    border: 1px solid red;
+    width: 75%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px 3px #555 ;
+}
+
+.titulo{
+    margin: 12px auto 10px auto;
+    border-bottom: 5px dotted #48e;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #48e;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.3px;
+}
+
+.parrafo{
+    padding: 10px 55px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.divBoton{
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+}
+.miboton.enviar{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:xx-large ;
+}
+
