@@ -1,4 +1,4 @@
-'use strict';
+//'use strict';
 
 const publicaciones = document.querySelector('.publicaciones');
 let contador=0;

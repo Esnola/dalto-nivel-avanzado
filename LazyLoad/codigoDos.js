@@ -1,4 +1,4 @@
-'use strict'
+//'use strict'
 const miBoton= document.querySelector('.miboton')
 
 
